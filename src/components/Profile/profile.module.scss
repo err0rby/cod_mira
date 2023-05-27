@@ -8,7 +8,7 @@
   color: #96D0CD;
 }
 
-.profile{
+.profile {
   display: flex;
   width: 1200px;
   margin: 50px auto;
@@ -22,6 +22,7 @@
   border-radius: 10px;
   box-shadow: 1px 1px 12px gray;
 }
+
 .leftCard>ul {
   li {
     a {
@@ -30,33 +31,41 @@
       opacity: 0.5;
       font-size: 20px;
     }
+
     margin: 20px 0;
   }
+
   list-style: none;
 }
+
 .rightCard {
   padding: 5%;
   width: 70%;
   border-radius: 10px;
   box-shadow: 1px 1px 12px gray;
 }
-.userInfo > span {
+
+.userInfo>span {
   display: block;
   opacity: 0.5;
 }
-.userInfo > div {
+
+.userInfo>div {
   font-size: 18px;
   font-weight: 500;
 }
+
 .userInfo {
   display: flex;
   justify-content: space-between;
   width: 50%;
   margin: 20px 0;
 }
+
 .leftCard>ul>li {
   position: relative;
 }
+
 @mixin nav-list-ico {
   content: "";
   position: absolute;
@@ -74,22 +83,27 @@
   background-image: url("./icons/profile-svgrepo-com.svg");
 
 }
+
 .leftCard>ul>li:nth-child(2)::before {
   @include nav-list-ico;
   background-image: url("./icons/love-svgrepo-com.svg");
 }
+
 .leftCard>ul>li:nth-child(3)::before {
   @include nav-list-ico;
   background-image: url("./icons/orders-svgrepo-com.svg");
 }
+
 .leftCard>ul>li:nth-child(4)::before {
   @include nav-list-ico;
   background-image: url("./icons/credit-card-svgrepo-com.svg");
 }
+
 .leftCard>ul>li:nth-child(5)::before {
   @include nav-list-ico;
   background-image: url("./icons/map-marker-svgrepo-com.svg");
 }
+
 .leftCard>ul>li:nth-child(6)::before {
   @include nav-list-ico;
   background-image: url("./icons/contact-card-svgrepo-com.svg");
@@ -102,20 +116,19 @@
   border: none;
 }
 
-.contactFrom {
-
-}
 .formRow {
   display: flex;
   justify-content: space-between;
   max-width: 80%;
   margin: 20px 0;
 }
-.formRow > label {
+
+.formRow>label {
   width: 30%;
   color: black;
 }
-.formRow > input {
+
+.formRow>input {
   padding: 5px 0;
   border-radius: 5px;
   border: 1px gray solid;
@@ -129,6 +142,7 @@
   border: 1px gray solid;
   border-radius: 10px;
 }
-.filterBookmarks > option:hover {
+
+.filterBookmarks>option:hover {
   border-radius: 10px;
 }
